@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PrimeNum {
 
 	public static void main(String[] args) {
-		System.out.println("Plese Enter A Number");
+		System.out.println(" Plese Enter A Number ");
 		Scanner scanner = new Scanner(System.in);
 		int int1 = scanner.nextInt();
 		int count = 0;
@@ -15,10 +15,10 @@ public class PrimeNum {
 			}
 		}
 		if(count>2) {
-			System.out.println("Number is not Prime");
+			System.out.println(" Number is not Prime .... ");
 		}
 		else {
-			System.out.println("Number is Prime");
+			System.out.println(" Number is Prime .... ");
 		}
 	}
 
